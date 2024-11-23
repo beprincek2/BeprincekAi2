@@ -18,8 +18,6 @@ This is a JavaScript-based AI chatbot application that uses the [Hugging Face In
 - **HTML/CSS**: For building the user interface.
 - **Nodemon**: For efficient server development.
 
-## Installation
-
 ### Prerequisites
 - [Node.js](https://nodejs.org/en/download/) (v14 or later)
 - A [Hugging Face API Key](https://huggingface.co/settings/tokens) (free or paid)  
