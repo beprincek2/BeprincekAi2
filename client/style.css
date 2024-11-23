@@ -13,7 +13,7 @@ body {
 
 #app {
   width: 100vw;
-  height: 100vh;
+  height: 95vh;
   background: #343541;
 
   display: flex;
@@ -37,6 +37,20 @@ body {
 
   padding-bottom: 20px;
   scroll-behavior: smooth;
+}
+
+.background-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* width: 100%;
+  height: 100%; */
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: #fff;
+  opacity: 0.1;
+  
+  pointer-events: none;
 }
 
 /* hides scrollbar */
@@ -118,7 +132,7 @@ form {
   margin: 0 auto;
   padding: 10px;
   background: #40414F;
-
+border-radius: 40px;
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -126,7 +140,7 @@ form {
 
 textarea {
   width: 100%;
-
+resize: none;
   color: #fff;
   font-size: 18px;
 
