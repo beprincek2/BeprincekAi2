@@ -2,6 +2,10 @@
 
 This is a JavaScript-based AI chatbot application that uses the [Hugging Face Inference API](https://huggingface.co/docs/api-inference) for natural language processing. The chatbot allows users to input queries and receive AI-generated responses in real-time.
 
+## Demo
+
+https://beprincek-ai2.vercel.app/
+
 ## Features
 
 - Integration with Hugging Face's `@huggingface/inference` library.
